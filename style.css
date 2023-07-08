@@ -1,0 +1,88 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.section{
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-top: 50px;
+  margin-left: 200px;
+  padding: 5px;
+}
+
+.container {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  margin-left: 500px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Estilos do formulário */
+form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+.button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+/* Estilos para exibição do resultado */
+.result {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 3px;
+}
+
+.result-title {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.result-value {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.result-classification{
+  font-size: 14px
+}
